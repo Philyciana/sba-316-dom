@@ -18,7 +18,7 @@
             <form id="registration">
                 <label>Email:</label>
                 <input name="email"
-                type="text"
+                type="email"
                 placeholder="Email"
                 required/>
                 <label>Password:</label>
@@ -31,16 +31,21 @@
         <div class="basic-info-container">
             <form id="basic-info">
                 <label>Full Name:</label>
+                <input type="text" required/>
                 <label>Adress:</label>
+                <input type="text" required/>
                 <label>Phone Number:</label>
+                <input type="text" required/>
                 <label>Email:</label>
+                <input type="text" required/>
+                <input type="date" id="date">
             </form>
         </div>
         <div class="job-container"></div>
             <form id="job-info">
                 <label>Positions applying for:</label>
-                <label>Link your resume:</label>
-                <label>Link a coverletter:</label>
+                <label id="resumelabel">Link your resume:</label>
+                <label id="coverletter">Link a coverletter:</label>
                 <label>Include your availability:</label>
             </form>
         </div>
